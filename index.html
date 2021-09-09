@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inconsolata&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Space+Mono&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    <!--  -->
+    <title>404-not-found</title>
+    <style>
+        header{
+            font-family: 'Inconsolata', monospace;
+            width: 133px;
+            height: 25px;
+            margin-top: 40px;
+            margin-left: 77px;
+            color: #333333;
+            font-weight: 700;
+        }
+
+        .main-cont{
+            display: flex;
+            flex-direction: row;
+            font-family: 'Space Mono', monospace;
+            margin-bottom: 20px;
+        }
+
+        .cont{
+            margin: auto;
+        }
+
+        img{
+            width: 539.22px;
+            height: 414.25px;
+        }
+
+        h1{
+            width: 596px;
+            font-size: 64px;
+            font-weight: 700;
+            color: #333333;
+        }
+
+        p{
+            width: 400px;
+            font-size: 24px;
+            font-weight: 400;
+            color: #4F4F4F;
+        }
+
+        button{
+            width: 216px;
+            height: 68px;
+            margin-top: 30px;
+            border: none;
+            color: white;
+            background: #333333;
+            font-family: 'Space Mono', monospace;
+        }
+
+        footer{
+            font-family: 'Montserrat', sans-serif;
+            position:fixed;
+            bottom:0;
+            left:0;
+            width:100%;
+            height: 30px;
+            text-align: center;
+            font-size: 12px;
+            font-weight: 700;
+            color: lightgrey;
+        }
+
+        @media only screen and (max-width: 500px) {
+                .main-cont{
+                    display: flex;
+                    flex-direction: column;
+                }
+
+                img{
+                    width: 286.83px;
+                    height: 220.35px;
+                }
+
+                h1{
+                    width: 286.83px;
+                    font-size: 38px;
+                }
+
+                p{
+                    width: 286.83px;
+                    font-size: 15px;
+                }
+
+                button{
+                    width: 216px;
+                    height: 68px;
+                    left: 24px;
+                    top: 726px;
+                }
+
+                footer{
+                    top: 70px;
+                    position: relative;
+                }
+        }
+    </style>
+</head>
+
+<body>
+    <header>404 NOT FOUND</header>
+    <main class="main-cont">
+        <div class="cont">
+            <img class="scarecrow" src="/Scarecrow.png" alt="scarecrow">
+        </div>
+        <div class="cont">
+            <h1>I have bad news for you</h1>
+            <p>The page you are looking for might be removed or is temporarily unavailable</p>
+            <button class="favorite styled" type="button">BACK TO HOMEPAGE</button>
+        </div>
+    </main>
+    <footer>Created by Sachini Dissanayaka - devChallenges.io</footer>
+</body>
+</html>
