@@ -34,7 +34,7 @@
 
 ## Overview
 
-![screenshot](https://user-images.githubusercontent.com/16707738/92399059-5716eb00-f132-11ea-8b14-bcacdc8ec97b.png)
+![screenshot](https://github.com/ChathurikaDissanayaka/404-not-found/blob/main/404NF.png)
 
 A responsive 404 not found page created by using HTML and CSS. 
 
